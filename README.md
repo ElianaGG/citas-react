@@ -8,7 +8,7 @@ Debemos ejecutar el comando: 'npm install' para poder instalar todas nuestras de
 
 Posterior a eso debemos ejecutar el comando: 'npm run dev' para poder iniciar nuestro servidor.
 
-Dicho servidor esta escuchando en el puerto 5173. podemos acceder a nuestro frontend en la url: http://localhost:5173/
+Dicho servidor esta escuchando en el puerto 5173. Podemos acceder a través de la url: http://localhost:5173/
 
 
 # URL de despliegue
