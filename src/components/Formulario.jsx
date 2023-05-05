@@ -75,9 +75,8 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
       <h2 className="font-black text-3xl text-center">
         Seguimiento de pacientes
       </h2>
-      <p className="text-lg mt-5 text-center mb-10">
-        Añadir pacientes y{" "}
-        <span className="text-sky-800 font-bold">administrarlos</span>
+      <p className="text-xl mt-5 text-center mb-10 font-bold">
+        Añadir pacientes y <span className="text-sky-800">administrarlos</span>
       </p>
 
       <form
@@ -93,7 +92,7 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
         <div className="mb-5">
           <label
             htmlFor="mascota"
-            className="block text-gray-700 uppercase font-bold"
+            className="block text-sky-900 uppercase font-bold"
           >
             Nombre mascota
           </label>
@@ -109,7 +108,7 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
         <div className="mb-5">
           <label
             htmlFor="propietario"
-            className="block text-gray-700 uppercase font-bold"
+            className="block text-sky-900 uppercase font-bold"
           >
             Nombre propietario
           </label>
@@ -125,7 +124,7 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
         <div className="mb-5">
           <label
             htmlFor="email"
-            className="block text-gray-700 uppercase font-bold"
+            className="block text-sky-900 uppercase font-bold"
           >
             Email
           </label>
@@ -141,7 +140,7 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
         <div className="mb-5">
           <label
             htmlFor="alta"
-            className="block text-gray-700 uppercase font-bold"
+            className="block text-sky-900 uppercase font-bold"
           >
             Fecha de alta
           </label>
@@ -156,7 +155,7 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
         <div className="mb-5">
           <label
             htmlFor="sintomas"
-            className="block text-gray-700 uppercase font-bold"
+            className="block text-sky-900 uppercase font-bold"
           >
             Descripción sintomas
           </label>
@@ -170,7 +169,7 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
         </div>
         <input
           type="submit"
-          className="bg-sky-800 w-full p-3 text-white uppercase font-bold hover:bg-sky-950 rounded-md"
+          className="bg-sky-800 w-full p-3 text-white uppercase font-bold hover:bg-sky-950 rounded-md cursor-pointer"
           value={paciente.id ? "Actualizar paciente" : "Agregar paciente"}
         />
       </form>

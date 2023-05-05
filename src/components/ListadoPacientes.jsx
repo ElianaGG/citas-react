@@ -9,9 +9,9 @@ const ListadoPacientes = ({ pacientes, setPaciente, eliminarPaciente }) => {
             <h2 className="font-black text-3xl text-center">
               Listado de pacientes
             </h2>
-            <p className="text-lg mt-5 text-center mb-10">
+            <p className="text-xl mt-5 text-center mb-10 font-bold">
               Administrar {""}
-              <span className="text-sky-800 font-bold">pacientes y citas</span>
+              <span className="text-sky-800">pacientes y citas</span>
             </p>
           </div>
 
